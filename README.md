@@ -34,7 +34,7 @@ Billy-joe
 
 ## Output
 
-The deliverable is a report that is printed to screen as well as saved as a file with the name 'REPORT_YYYYMMDD_YYYYMMDD_YYYYMMDD.txt', where the three dates are report, period start, and period end dates.
+The deliverable is a report that is printed to screen as well as saved as a file with the name *REPORT_YYYYMMDD_YYYYMMDD_YYYYMMDD.txt*, where the three dates are report, period start, and period end dates.
 
 The report contains:
 - The relevant dates
@@ -44,3 +44,43 @@ The report contains:
 	- The total amount they earn
 	- The number of bills/coins of each denomination they should be given
 - For each denomination, the number of bills/coins should be exchanged or obtained
+
+Example report:
+```
+TIP REPORT
+----------
+
+Report date: 2020 / 2 / 25
+Period start date: 2020 / 1 / 1
+Period end date: 2020 / 1 / 14
+
+Total hours: 116.96
+Total tips: 316.50 CAD
+
+Bob gets 8.50 CAD in tips. 
+Fives: 1
+Toonies: 1
+Loonies: 1
+Quarters: 2
+
+Sue gets 7.35 CAD in tips. 
+Fives: 1
+Toonies: 1
+Quarters: 1
+Dimes: 1
+
+Billy-joe gets 300.65 CAD in tips. 
+Twenties: 1
+Tens: 2
+Fives: 24
+Toonies: 35
+Loonies: 70
+Quarters: 2
+Nickels: 3
+
+Number of fives to obtain: 18
+Number of loonies to obtain: 18
+Number of quarters to exchange: 316
+Number of dimes to exchange: 230
+Number of nickels to exchange: 120
+```

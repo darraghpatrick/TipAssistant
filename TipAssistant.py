@@ -312,13 +312,6 @@ class TipReport:
 
         for g in self.tw.roster.keys():
 
-            # Exchange excess nickels        
-            if self.tw.distro[g][7] > 1:
-                newd = int(self.tw.distro[g][7]/2)
-                self.nt.till['0.1'] += newd
-                self.nt.till['0.05'] -= newd*2
-                self.tw.distro[g][6] += newd
-                self.tw.distro[g][7] -= newd*2
             # Exchange excess dimes        
             if self.tw.distro[g][6] > 4:
                 newq = int(self.tw.distro[g][6]/5)
