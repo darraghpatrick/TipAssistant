@@ -25,7 +25,7 @@ moneyfile = "money.txt"
 
 rosterfile = "roster.txt"
 
-# Helper file. Take float and returns string in proper currency format: "xxx.xx CAD".
+# Helper function. Take float and returns string in proper currency format: "xxx.xx CAD".
 
 def curr_format(money):
     sm = str(round(money,2))
