@@ -17,9 +17,20 @@ Given a roster of employees and the number of hours they worked in a given timef
 
 Two text files: *money.txt* and *roster.txt*.
 
-*money.txt* should consist of only eight integers, separated by a newline. These integers represent the number of twenties, tens, fives, toonies, loonies, quarters, dimes, and nickels that have been given as tips.
+*money.txt* should consist of only eight integers, separated by newlines. These integers represent the number of twenties, tens, fives, toonies, loonies, quarters, dimes, and nickels that have been given as tips.
 
-*roster.txt* is more complicated. The first line should contain the period start date in yyyy/mm/dd format. The second line should contain the period end date in same format. The third, fifth, etc. lines should contain employee names. The fourth, sixth, etc. lines should contain hours each respective employee worked. It is assumed that hours are floats up to two decimal places.
+*roster.txt* is more complicated. The first line should contain the period start date in yyyy/mm/dd format. The second line should contain the period end date in same format. The third, fifth, etc. lines should contain employee names. The fourth, sixth, etc. lines should contain hours each respective employee worked. It is assumed that hours are floats up to two decimal places. For example:
+
+```
+2020/1/1
+2020/1/14
+Bob
+3.14
+Sue
+2.72
+Billy-joe
+111.1
+```
 
 ## Output
 
